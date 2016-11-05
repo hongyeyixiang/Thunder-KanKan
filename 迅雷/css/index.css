@@ -1,0 +1,76 @@
+
+/*
+    author:冯宏业
+    time：
+    email：
+    迅雷看看首页css
+*/
+
+/*首页的一些通用样式*/
+.w970{width: 970px;  margin-left:auto;margin-right: auto;margin-bottom: 0;margin-top: 0}
+.w968{width: 968px;border: 1px solid #ddd;margin: 0 auto;}
+body{font-size:12px;color: #666;}
+a{text-decoration: none;}
+a:hover{text-decoration: underline;}
+
+
+/*头部的css*/
+.header{border: 0px solid #ccc;overflow: hidden;height: 78px;padding-top:20px;}
+.logo{width: 290px;height: 98px;position: relative;top:-10px;}
+.search{width: 400px;}
+.search form{border: 3px solid #eee;width: 394px;height: 28px;}
+.search .btn{width: 68px;height: 27px;background-color: #6cb3f8;border: none;color:#fff;font-weight: bold;}
+.search .keyword{width: 316px;border: 1px solid lightgray;height: 24px;padding-left: 5px;}
+.search p{margin-top:10px;}
+.search p a{color: #999;margin: 0 4px;}
+.help{width: 270px;text-align: right;color: #e6e6e6;margin-top:15px;}
+.help p {line-height: 20px;}
+.help a{color: #999;}
+.help .subscribe{}
+
+
+/*导航菜单的样式*/
+.menu{height: 35px;background-color: #ffffff;line-height: 35px;}
+/*.menu ul{overflow: hidden;display: inline-block;}*/
+.menu li{float: left;margin: 0 13px;color: #414141;}
+.menu li a{font-size: 14px;}
+.menu li a:hover{color: #0081C2;}
+.menu .line{border-left:0.5px solid lightgray;padding-left: 15px;}
+.menu  .on a{color: #0081C2;font-weight: bold;}
+.menu .dp a{font-size:12px;}
+.menu div li span{display: block;width: 5px;height: 4px;position: relative;left: 47px;top:-20px;background-color: black;}
+
+
+
+/*分类导航样式*/
+.nav{height: 380px;background-color: #000;}
+.nav-left{margin-top: 8px;width: 740px;}
+.nav-left .big-pic{position: relative;}
+.nav-left .big-pic p{padding-left: 10px;position: absolute;left: 0;bottom:0;background-color: #000;line-height: 35px;height: 35px;width: 730px;color: white;font-size: 14px;opacity: 0.5;filter:Alpha(opacity=0.5);}
+.nav-left .big-pic img{width: 740px;height: 310px;}
+.small-pic{margin-top: 5px;}
+.small-pic li{float: left;margin:0 2px 0 2px;padding-top:3px;width: 87px;height: 50px;border: 1px solid black;}
+.small-pic li img{width: 89px;height: 50px;position: relative;top: -3px;}
+.small-pic li.on{border: 1px solid lightblue;}
+.nav-right{width: 228px;height: 363px;border: 1px solid lightgray;margin-top: 8px;background-color: black;opacity: 0.8}
+.option{margin-left: 2px;margin-right: 2px;}
+.option span{padding: 0;margin: 0;border: 1px solid #545454;color: #989898;display: inline-block;line-height: 20px;height: 20px;width: 30px;text-align: center;}
+.option span.on{border: 1px solid #ffffff;background-color: lightgray;}
+
+.nav-right ol li {line-height: 27px;position: relative;}
+.nav-right ol li a{color: #bfbfbf;}
+.nav-right strong {margin: 0 4px;width: 21px;height: 16px;text-align: center;line-height: 16px;border: 1px solid #4d4d4d;color: #848484;}
+.nav-right .top3{display: inline-block;width: 21px;height: 16px;text-align: center;line-height: 16px;color: white;background-color: #6cb3f8;font-weight: bold;}
+.nav-right ol span{margin-left: 5px;}
+.nav-right ol em{position: absolute;right: 15px;color: #fff;}
+.nav-right .pic-link{position: absolute;right: 0;top:7px;width: 8px;height: 11px;background-color: lightblue;text-indent: 9999px;overflow: hidden;}
+
+.nav-right ul {margin: 8px 0 8px 0;}
+.nav-right ul li{line-height: 20px;padding-left: 10px; }
+.nav-right ul a{color: #DF7E0D;}
+
+
+
+
+
+
